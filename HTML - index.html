@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harpreet</title>
+    <link rel="stylesheet" href="/home/taran/Desktop/TEST/CSS_index.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; color: black; text-shadow: 0.5px 0.5px;">
+        Hello Harpreet!
+
+    </h1>
+    <h2 style="text-align: left; color: blue;">
+        <!-- <div> -->
+        How are you?
+        <!-- </div> -->
+        See this beautiful picture!!
+
+        You can search this picture on Google. Here is the link to <a style="color: darkgreen;" target=_blank
+            href="https://www.google.com">
+            Google</a>
+
+    </h2>
+    <img src="/home/taran/Pictures/index.jpeg" alt="Image unseen">
+
+    <!-- <button formtarget="blank" onclick="window.location.href = 'https://www.google.com'">Click Me </button> -->
+
+    <h3>
+        I have made two forms. Kindly fill them.
+    </h3>
+    <h1>
+        1. Personal Information!!
+    </h1>
+    <form action="abc">
+        <div> <label for="TEXT"> Enter your name: </label>
+            <input type="text" id="TEXT" placeholder="name" name="Your_name_is" required>
+
+        </div>
+        <div>
+            <label for="NUMBER">Enter your favourite number</label>
+            <input type="number" id="NUMBER" placeholder="number" name="no.">
+        </div>
+        <div>
+            <label for="COLOR">Enter your favourite color</label>
+            <input type="color" id="COLOR" placeholder="color">
+        </div>
+        <div>
+            <label for="CHECKBOX">Tick the checkbox</label>
+            <input type="checkbox" id="CHECKBOX" required>
+        </div>
+        <br>
+        <button name="SUBMIT">Submit!!!</button>
+
+    </form>
+    <h1>2. Race Registration!!</h1>
+    <form action="/taran">
+        Write your name:
+        <br>
+        <div>
+            <label for="fn">First Name</label>
+            <input type="text" id="fn" name="FN" required>
+            <label for="ln">Last Name</label>
+            <input type="text" id="ln" name="LN" required>
+        </div>
+        <br>
+        Select a race:
+        <div>
+            <input type="radio" id="frun" name="race" value="fr5k" required>
+            <label for="frun">Fun Run 5K</label>
+        </div>
+        <div>
+            <input type="radio" id="hm" name="race" value="halfM" required>
+            <label for="hm">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" id="fm" name="race" value="FM" required>
+            <label for="fm">Full Marathon</label>
+        </div>
+        <br>
+        <label for="em">E-mail</label>
+        <input type="email" id="em" name="EM">
+        <br>
+        <label for="pd">Password</label>
+        <input type="password" id="pd" name="PD" required>
+        <br>
+        <label for="sag">Select age group:</label>
+        <select name="k" id="sag" required>
+            <option value="kid">Under 18</option>
+            <option value="adult">18-70</option>
+            <option value="special people">Greater than 70</option>
+        </select>
+        <br>
+
+        <button formtarget="_blank">Register</button>
+
+
+    </form>
+</body>
+
+</html>

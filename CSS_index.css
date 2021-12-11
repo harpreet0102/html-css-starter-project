@@ -1,0 +1,36 @@
+h1{
+    color: rebeccapurple;
+    /* text-align: center; */
+}
+h2{
+    color: rebeccapurple;
+}
+div{
+    color: rgb(9, 163, 168);
+}
+body{
+background-image: url(https://cutewallpaper.org/21/plane-pink-backgrounds/FO1011-Fiore-Light-Pink-Plain-Galerie-Wallpaper-5411012404789-eBay.jpg);
+/* background-repeat: no-repeat;   */
+/* background-position: right top; */
+/* background-attachment: scroll; */
+border-style:dashed;
+outline-color: olive;
+padding-bottom: 20px;
+padding-left: 20px;
+margin-top: 50px;
+margin-left: 40px;
+margin-right: 40px;
+}
+p{
+    color:rgb(9, 163, 168);
+}
+h3{
+    color: blue;
+}
+form{
+    color:rgb(74, 104, 24)
+}
+button{
+    color:black;
+    background-color: rgb(70, 78, 58);
+}
