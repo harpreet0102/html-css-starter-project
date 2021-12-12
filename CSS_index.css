@@ -16,7 +16,7 @@ background-image: url(https://cutewallpaper.org/21/plane-pink-backgrounds/FO1011
 border-style:dashed;
 outline-color: olive;
 padding-bottom: 20px;
-padding-left: 80px;
+padding-left: 20px;
 margin-top: 50px;
 margin-left: 40px;
 margin-right: 40px;
@@ -25,7 +25,7 @@ p{
     color:rgb(9, 163, 168);
 }
 h3{
-    color: yellow;
+    color: blue;
 }
 form{
     color:rgb(74, 104, 24)
